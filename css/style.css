@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700');
+@import
+  url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
+body {
+  display: flex;
+  background: #8F2323;
+  background: linear-gradient(rgba(0, 0, 0, .08) 1px, transparent 1px);
+  background-color: #8F22AA;
+  background-size: 0.5rem 0.5rem;
+  background-position: 50% 50%;
+  font-family: Archivo Narrow;
+}
+
+.circle {
+  min-width: 375px;
+  min-height: 375px;
+  display: block;
+  margin: 120px auto;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 100%;
+  background-color: ;
+}
+
+.buttons {
+  width: 370px;
+  height: 370px;
+  margin: 15px;
+  border-radius: 50%;
+  //background-color: white;
+}
+
+.button {
+  width: 180px;
+  height: 180px;
+  float: left;
+  box-shadow: inset 0 0 12px;
+  opacity: .5;
+  outline: none;
+}
+.button.noshadow{
+  box-shadow: none;
+}
+.button.selected{
+  box-shadow: none;
+}
+
+
+.red {
+  background: red;
+  border-top-left-radius: 180px;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.blue {
+  background: blue;
+  border-top-right-radius: 180px;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.yellow {
+  background: yellow;
+  border-bottom-left-radius: 180px;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.green {
+  background: green;
+  border-bottom-right-radius: 180px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+
+.inner {
+  width: 180px;
+  height: 180px;
+  background: gray;
+  position: absolute;
+  z-index: 2;
+  left: 92px;
+  top: 92px;
+  border: 15px solid black;
+  border-radius: 100%;
+  box-shadow: inset 0 0 12px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 26px;
+  margin-bottom: 0;
+  
+}
+
+.labels {
+  margin: auto;
+  height: 18px;
+  width: 108px;
+  padding-top: 3px;
+  padding-bottom: 0;
+}
+
+.label {
+  font-size: .6em;
+  float: left;
+  margin-top: 4px;
+}
+
+.label-on {
+  padding-left: 16px;
+}
+
+.label-start {
+  padding-left: 10px;
+}
+
+.label-strict {
+  padding-left: 4px;
+}
+
+.mode {
+  color: red;
+}
+
+button {
+  outline: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 2px solid black;
+  box-shadow: inset 0 0 10px;
+}
+
+.on {
+  background: blue;
+  opacity: ;
+}
+
+.start {
+  background: red;
+  opacity: 0.7;
+}
+
+.strict {
+  background: yellow;
+  opacity: 0.7;
+}
+
+input {
+  width: 70px;
+  height: 30px;
+  border-radius: 7px;
+  margin-top: 7px;
+  background: #2E1108;
+  opacity: .8;
+  color: red;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+
+}
+
+.lit {
+  opacity: 1;
+}
+
+.inner-lit {
+  border-color: red;
+}
+
+.active {
+  pointer-events: none;
+}

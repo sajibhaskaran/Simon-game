@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class= "circle">
+<div class= "buttons"> 
+  <div class= "button red" data-name = "red"></div>
+  <div class= "button blue" data-name = "blue"></div>
+  <div class= "button yellow" data-name = "yellow"></div>
+  <div class = "button green" data-name = "green"></div>
+  <div class= "inner">
+    <h2>Simon</h2>
+    <div class = "labels">
+    <div class = "label label-on">ON</div>
+    <div class = "label label-start">START</div>
+    <div class= "label label-strict">STRICT</div>
+    </div>
+    <div class="button_switch">
+    <button type="button" class= "on"></button>
+    <button type="button" class= "start"></button>
+    <button type="button" class= "strict"></button>
+    </div>
+    <input type="text" value ="">
+  
+  </div>
+  
+  </div>
+</div>
+
+<audio id="red" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" preload="auto"></audio>
+<audio id="blue" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" preload="auto"></audio>
+<audio id="green" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" preload="auto"></audio>
+<audio id="yellow" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" preload="auto"></audio>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
