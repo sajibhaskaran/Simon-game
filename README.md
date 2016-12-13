@@ -1,5 +1,8 @@
 # Simon Game
 
+### Demo:
+https://sajibhaskaran.github.io/Simon-game
+
 ### Objective:
 Build a Simon Game that is functionally similar to the original Simon Game:
 
