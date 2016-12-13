@@ -1,5 +1,7 @@
 # Simon Game
 
+### Objective:
+Build a Simon Game that is functionally similar to the original Simon Game:
 
 ### User Story 1:
 I am presented with a random series of button presses.
