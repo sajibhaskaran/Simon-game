@@ -2,7 +2,7 @@
 
 
 ### User Story 1:
-    I am presented with a random series of button presses.
+I am presented with a random series of button presses.
 
 ### User Story 2:
     Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.
